@@ -1,15 +1,286 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ukraine_GTA</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ukraine_GTA</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    function toggleServerList() {
+      const block = document.getElementById("server-list");
+      block.style.display = block.style.display === "flex" ? "none" : "flex";
+    }
+
+  </script>
 </head>
+
 <body>
-    <img src="img/logoukrgta1.webp" alt="" class="verh">
-    <div style="background-color:"></div>
+  <header>
+    <header class="custom-header">
+      <nav class="nav-left">
+        <a href="#" class="nav-btn">
+          <i class="fi fi-sr-home"></i>
+          Головна
+        </a>
+      </nav>
+
+      <div class="logo">
+        <img src="img/logoukrgta1.webp" alt="UKRAINE GTA">
+      </div>
+
+      <nav class="nav-right">
+        <a href="https://wiki.ukraine-gta.com.ua" class="nav-btn">
+          <i class="fi fi-sr-globe"></i>
+          WIKI
+        </a>
+      </nav>
+    </header>
+    <div style="background-color: #110F16; "> </div>
     <i class="fi fi-sr-home"></i>
-    <a href="https://ukraine-gta.com.ua/uk/"></a>
+    <h1 class="pataymsha">
+      <span class="white-text">ОНЛАЙН ГРА</span>
+      <span class="orange-text">ПРО УКРАЇНУ!</span>
+    </h1>
+    <h2>UKRAINE GTA - це реалістична онлайн гра про нашу країну, в якій відтворена вся краса наших міст, справжніх
+      авто, де ти зможеш попрацювати на реально крутих роботах. Запрошуємо тебе відчути цю теплу атмосферу
+      української гри та знайти серед українських гравців справжніх друзів!
+    </h2>
+    <img src="img/osnovaverh.webp" alt="" class="osnovaverh">
+    <div class="button-row">
+      <a href="https://ukraine-gta.com.ua/uagta_online_signed.exe" class="btn-play">
+        <i class="fas fa-play icon"></i>
+        Розпочати гру
+      </a>
+
+      <a href="https://www.youtube.com/watch?v=rbs0JG64YSs&t=2s" class="btn-more">
+        <i class="fas fa-video icon"></i>
+        Дізнатись більше
+      </a>
+    </div>
+    <button class="server-toggle-btn" onclick="toggleServerList()">Показати сервери</button>
+    <div id="server-list">
+      <div class="server-box">
+        <h3>1 Центральна Україна</h3>
+        <p>700/700</p>
+      </div>
+      <div class="server-box">
+        <h3>2 Західна Україна</h3>
+        <p>700/700</p>
+      </div>
+      <div class="server-box">
+        <h3>3 Східна Україна</h3>
+        <p>700/700</p>
+      </div>
+      <div class="server-box">
+        <h3>4 Північна Україна</h3>
+        <p>/700</p>
+      </div>
+    </div>
+    <h1 class="pataymsha">
+      <span class="white-text">чому</span>
+      <span class="orange-text">ВАРТО ГРАТИ</span>
+      <span class="white-text">в</span>
+      <span class="orange-text">UKRAINE GTA</span>
+    </h1>
+    <div class="fact-section">
+      <div class="fact-text">
+        <p class="fact-number">Перший факт</p>
+        <h2 class="fact-title">УКРАЇНСЬКА МАПА</h2>
+        <p class="fact-description">
+          Ми розробляємо власну, унікальну карту вже майже рік. З перших хвилин гри ти зрозумієш, що знаходишся у рідній
+          Україні,
+          хоч і насправді перебуваєш за тисячі кілометрів від дому.
+        </p>
+        <p class="fact-subtitle">Зараз у грі є такі міста:</p>
+        <ul class="city-list">
+          <li>Київ</li>
+          <li>Харків</li>
+          <li>Дніпро</li>
+          <li>Бориспіль</li>
+          <li>Конча-Заспа</li>
+        </ul>
+      </div>
+      <img class="fact-image2" src="img/centr.webp" alt="Зображення мапи України">
+    </div>
+    <div class="fact-container2">
+      <div class="fact-image3">
+        <img src="img/dalekoboi.webp" alt="Зображення">
+      </div>
+      <div class="fact-text2">
+        <div class="fact-number2">Другий факт</div>
+        <div class="fact-title2">РЕАЛЬНІ РОБОТИ ТА ПРОФЕСІЇ</div>
+        <div class="fact-description2">
+          Величезний вибір робіт для новачків та гравців із досвідом. Працюй у різних державних установах: від генерала
+          СБУ чи НПУ до слуги народу, стань міським головою та очоль місто. Або піди служити в ЗСУ — обороняй свою
+          маленьку країну в UKRAINE GTA. Подобається кримінал, є навіть і таке, викрадай елітні авто, але не потрапляй
+          до
+          рук поліції. Ти можеш стати будь-ким, тисячі професій таких як:
+        </div>
+        <ul class="fact-jobs2">
+          Далекобійник<br>
+          Машиніст<br>
+          Таксист<br>
+          Фермер
+        </ul>
+      </div>
+    </div>
+  </header>
+  <div>
+    <img src="img/cars-big.webp" alt="cars">
+  </div>
+  <div class="fact-block">
+    <div class="fact-content">
+      <div class="fact-tag">Третій факт</div>
+      <div class="fact-title">Вітчизняні та імпортні автомобілі</div>
+      <div class="fact-description">
+        В UKRAINE GTA ви можете знайти величезний вибір автомобілів, який задовольнить будь-який смак. Від вітчизняних
+        моделей, що вражають надійністю та доступністю у ремонті, до імпортних авто з передовими технологіями та
+        елегантним дизайном – у грі ви знайдете все, що потрібно для захоплюючих перегонів та випробування себе на
+        дорозі.
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="header">
+      <h1>НОВИНИ ПРОЄКТУ</h1>
+    </div>
+
+    <div class="news-grid">
+      <div class="news-card">
+        <img src="img/1.webp" alt="Кримінальний світ">
+        <div class="news-content">
+          <div class="news-title">ВЕЛИКОДНІЙ ФАРМ</div>
+          <div class="news-description">
+            Перед великим святом Великодня ми вирішили порадувати вас оновленням 2.9, у якому на вас чекають: святковий
+            івент, неймовірні автівки, найкрутіші скіни та справжня майнінг ферма.
+            Усе це ви побачите вже зовсім скоро у відео!
+          </div>
+        </div>
+        <div class="news-footer">
+          <div>18.04.2025</div>
+          <a href="https://youtu.be/1uLwGhfQJ4w?si=IpGoyM6B5eZPuJ2h" class="details-link">Детальніше</a>
+        </div>
+      </div>
+
+      <div class="news-card">
+        <img src="img/2.webp" alt="Знос транспорту">
+        <div class="news-content">
+          <div class="news-title">КРИМІНАЛЬНИЙ СВІТ 2</div>
+          <div class="news-description">
+            Чекали на другу частину оновлення? Тоді приготуйтесь до оновлення, потужнометр якого зашкалює.
+            Довгоочікувані гаражні місця у кланах, безмежна кількість нововведень та цікавих систем.
+          </div>
+        </div>
+        <div class="news-footer">
+          <div>31.01.2025</div>
+          <a href="https://wiki.ukraine-gta.com.ua/article?title=update-2.8" class="details-link">Детальніше</a>
+        </div>
+      </div>
+
+      <div class="news-card">
+        <img src="img/3.webp" alt="Зимова подорож">
+        <div class="news-content">
+          <div class="news-title">КРИМІНАЛЬНИЙ СВІТ</div>
+          <div class="news-description">
+            Весняна мапа, нові атмосферні роботи, автівки та багато чого іншого. Все це, ми підготували для вас, тому не
+            гай ні хвилини та швидше переходь, щоб ознайомитися з усім, що на вас чекає в неймовірному оновленні.
+          </div>
+        </div>
+        <div class="news-footer">
+          <div>24.12.2024</div>
+          <a href="https://wiki.ukraine-gta.com.ua/article?title=criminal-world" class="details-link">Детальніше</a>
+        </div>
+      </div>
+
+      <div class="news-card">
+        <img src="img/4.webp" alt="Азартний жах">
+        <div class="news-content">
+          <div class="news-title">ЗНОС ТРАНСПОРТУ ТА НОВОВЕДЕНЯ</div>
+          <div class="news-description">
+            Любі гравці, за цей місяць ми виправили та покращили багато наших систем, ввели нові, а також добре
+            попрацювали, щоб кожному з вас щодня ставало комфортніше проводити час на сервері. Тож давайте розберемо, що
+            ми ввели та над чим ми попрацювали.
+          </div>
+        </div>
+        <div class="news-footer">
+          <div>26.10.2024</div>
+          <a href="https://ukraine-gta.com.ua/article/overhaul-of-transport-and-innovations" class="details-link">Детальніше</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="gallery-section">
+    <div class="gallery-left">
+      <img src="img/g1.webp">
+      <div class="gallery-title">
+        <h1>Галерея<br>Наших гравців</h1>
+      </div>
+    </div>
+
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="img/g2.webp" alt="Game Scene">
+        <div class="gallery-icon">
+          <img src="img/g2.webp" alt="User Icon">
+        </div>
+      </div>
+      <div class="gallery-item">
+        <img src="img/g3.webp" alt="Game Scene">
+        <div class="gallery-icon">
+          <img src="img/g3.webp" alt="User Icon">
+        </div>
+      </div>
+      <div class="gallery-item">
+        <img src="img/g4.webp" alt="Game Scene">
+        <div class="gallery-icon">
+          <img src="img/g4.webp" alt="User Icon">
+        </div>
+      </div>
+      <div class="gallery-item">
+        <img src="img/g5.webp" alt="Game Scene">
+        <div class="gallery-icon">
+          <img src="img/g5.webp" alt="User Icon">
+        </div>
+      </div>
+      <div class="gallery-item">
+        <img src="img/g6.webp" alt="Game Scene">
+        <div class="gallery-icon">
+          <img src="img/g6.webp" alt="User Icon">
+        </div>
+      </div>
+      <div class="gallery-item">
+        <img src="img/g7.webp" alt="Game Scene">
+        <div class="gallery-icon">
+          <img src="img/g7.webp" alt="User Icon">
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
+<footer>
+  <div class="footer-top">
+    <div class="footer-column footer-logo">
+      <img src="img/logo.png" alt="Логотип">
+    </div>
+    <div class="footer-column">
+      <h3>Інформація</h3>
+      <a href="https://ukraine-gta.com.ua/uk/terms/">Угода користувача</a>
+      <a href="https://ukraine-gta.com.ua/uk/offert/">Правила користування</a>
+      <a href="https://ukraine-gta.com.ua/uk/privacy/">Політика конфіденційності</a>
+    </div>
+    <div class="footer-column">
+      <h3>Контакти</h3>
+      <a href="">cooperation@ukraine-gta.online</a>
+      <a href="https://t.me/ukrainegtabot">Технічна підтримка</a>
+      <a href="https://ukraine-gta.com.ua/uk/about/?">Про нас</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    Україна ГТА – це український ролеплей проєкт, створений українськими розробниками на платформі MTA. Гра, в якій є
+    графіка та можливості GTA 5 RP. Це український РП проєкт, створений за мотивами кримінальної України.
+  </div>
+</footer>
+
 </html>
